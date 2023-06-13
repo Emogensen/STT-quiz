@@ -1,0 +1,484 @@
+{
+  "categories": [
+    {
+      "name": "Geography",
+      "questions": [
+        {
+          "question": "What is the capital city of Switzerland?",
+          "answers": ["Geneva", "Zurich", "Bern", "Lausanne"],
+          "correctAnswer": "Bern"
+        },
+        {
+          "question": "Which two countries in South America do not have a border with Brazil?",
+          "answers": [
+            "Chile and Colombia",
+            "Argentina and Peru",
+            "Ecuador and Bolivia",
+            "Uruguay and Suriname"
+          ],
+          "correctAnswer": "Ecuador and Bolivia"
+        },
+        {
+          "question": "Which African country is the most populous?",
+          "answers": ["Nigeria", "Egypt", "Ethiopia", "South Africa"],
+          "correctAnswer": "Nigeria"
+        },
+        {
+          "question": "Which river is the longest in Europe?",
+          "answers": ["Danube", "Volga", "Rhine", "Dnieper"],
+          "correctAnswer": "Volga"
+        },
+        {
+          "question": "Which city is located at the highest elevation above sea level?",
+          "answers": [
+            "La Paz, Bolivia",
+            "Quito, Ecuador",
+            "Kathmandu, Nepal",
+            "Addis Ababa, Ethiopia"
+          ],
+          "correctAnswer": "La Paz, Bolivia"
+        },
+        {
+          "question": "Which country is known as 'the Land of the Rising Sun'?",
+          "answers": ["China", "Japan", "South Korea", "Thailand"],
+          "correctAnswer": "Japan"
+        },
+        {
+          "question": "Which city is the capital of Canada?",
+          "answers": ["Ottawa", "Toronto", "Vancouver", "Montreal"],
+          "correctAnswer": "Ottawa"
+        },
+        {
+          "question": "The Great Barrier Reef, one of the world's natural wonders, is located off the coast of which country?",
+          "answers": ["Australia", "Brazil", "Mexico", "Egypt"],
+          "correctAnswer": "Australia"
+        },
+        {
+          "question": "Which mountain range is located between France and Spain?",
+          "answers": ["Alps", "Himalayas", "Pyrenees", "Andes"],
+          "correctAnswer": "Pyrenees"
+        },
+        {
+          "question": "Which country is the largest producer of oil in the world?",
+          "answers": ["United States", "Saudi Arabia", "Russia", "Canada"],
+          "correctAnswer": "United States"
+        },
+        {
+          "question": "What is the capital city of South Africa?",
+          "answers": ["Cape Town", "Johannesburg", "Pretoria", "Durban"],
+          "correctAnswer": "Pretoria"
+        },
+        {
+          "question": "Which Nordic country is known as the 'Land of the Midnight Sun'?",
+          "answers": ["Sweden", "Finland", "Norway", "Iceland"],
+          "correctAnswer": "Norway"
+        },
+        {
+          "question": "Which country is known as 'the Land of a Thousand Lakes'?",
+          "answers": ["Sweden", "Finland", "Canada", "Russia"],
+          "correctAnswer": "Finland"
+        },
+        {
+          "question": "Which Norwegian city is often referred to as the 'Gateway to the Fjords'?",
+          "answers": ["Bergen", "Trondheim", "Stavanger", "Tromsø"],
+          "correctAnswer": "Bergen"
+        },
+        {
+          "question": "The Åland Islands, an autonomous archipelago, belong to which Nordic country?",
+          "answers": ["Sweden", "Norway", "Finland", "Denmark"],
+          "correctAnswer": "Finland"
+        },
+        {
+          "question": "Which African country is known for its population of mountain gorillas?",
+          "answers": ["Uganda", "Kenya", "Tanzania", "Rwanda"],
+          "correctAnswer": "Rwanda"
+        },
+        {
+          "question": "The Serengeti National Park, known for its annual wildebeest migration, is located in which African country?",
+          "answers": ["Kenya", "South Africa", "Tanzania", "Botswana"],
+          "correctAnswer": "Tanzania"
+        },
+        {
+          "question": "The Komodo National Park, home to the Komodo dragon, is located in which country?",
+          "answers": ["Indonesia", "Malaysia", "Thailand", "Philippines"],
+          "correctAnswer": "Indonesia"
+        },
+        {
+          "question": "The Arctic region is known for its polar bears. Which country is the largest habitat for polar bears?",
+          "answers": ["Canada", "Russia", "Norway", "Greenland"],
+          "correctAnswer": "Canada"
+        },
+        {
+          "question": "What is the world's largest river by volume?",
+          "answers": ["The Nile", "The Amazon", "The Congo", "The Yangtze"],
+          "correctAnswer": "The Amazon"
+        }
+      ]
+    },
+    {
+      "name": "History",
+      "questions": [
+        {
+          "question": "When were the first Olympic games held?",
+          "answers": ["772 BC", "1896 AD", "776 BC", "692 BC"],
+          "correctAnswer": "776 BC"
+        },
+        {
+          "question": "What was the capital city of the Byzantine Empire?",
+          "answers": ["Rome", "Constantinople", "Pompeii", "Antioch"],
+          "correctAnswer": "Constantinople"
+        }
+      ]
+    },
+    {
+      "name": "Technology",
+      "questions": [
+        {
+          "question": "Who is often credited as the inventor of the World Wide Web?",
+          "answers": [
+            "Tim Cook",
+            "Tim Berners-Lee",
+            "Kary Mullis",
+            "James D. Watson"
+          ],
+          "correctAnswer": "Tim Berners-Lee"
+        },
+        {
+          "question": "What does the abbreviation 'URL' stand for in the context of the internet?",
+          "answers": [
+            "Universal Resource Locator",
+            "Universal Routing Link",
+            "Unified Resource Language",
+            "Unique Routing Locator"
+          ],
+          "correctAnswer": "Universal Resource Locator"
+        },
+        {
+          "question": "What was the first commercially successful video game console, released in the early 1970's?",
+          "answers": [
+            "Atari 2600",
+            "Magnavox Odyssey",
+            "Nintendo Entertainment System (NES)",
+            "Sega Genesis"
+          ],
+          "correctAnswer": "Magnavox Odyssey"
+        },
+        {
+          "question": "In 2003, the popular music-streaming service Spotify was launched in which European country?",
+          "answers": ["United Kingdom", "Sweden", "Finland", "Germany"],
+          "correctAnswer": "Sweden"
+        },
+        {
+          "question": "In computing, what does the acronym 'RAM' stand for?",
+          "answers": [
+            "Random Access Memory",
+            "Remote Access Module",
+            "Redundant Array of Memory",
+            "Rapid Application Mode"
+          ],
+          "correctAnswer": "Random Access Memory"
+        },
+        {
+          "question": "In 2018, Sweden became the first country to introduce what type of road, which can charge electric vehicles as they drive?",
+          "answers": [
+            "Electric highways",
+            "Solar roads",
+            "Wireless charging roads",
+            "Smart roads"
+          ],
+          "correctAnswer": "Electric highways"
+        },
+        {
+          "question": "Which Swedish music streaming service was founded in 2006 and acquired by Spotify in 2014?",
+          "answers": ["SoundCloud", "Pandora", "Tidal", "Rdio"],
+          "correctAnswer": "Tidal"
+        },
+        {
+          "question": "What is the name of the first commercially successful video game, released in 1972?",
+          "answers": ["Pong", "Super Mario Bros.", "Pac-Man", "Space Invaders"],
+          "correctAnswer": "Pong"
+        },
+        {
+          "question": "Which technology company developed the first graphical user interface (GUI)?",
+          "answers": ["Apple", "Microsoft", "IBM", "Xerox"],
+          "correctAnswer": "Xerox"
+        },
+        {
+          "question": "What technology is commonly used to assist individuals with visual impairments to navigate their surroundings?",
+          "answers": [
+            "Virtual Reality (VR)",
+            "Augmented Reality (AR)",
+            "Voice Assistants",
+            "Wearable Sensors"
+          ],
+          "correctAnswer": "Voice Assistants"
+        },
+        {
+          "question": "In the field of fertility, what is the name of the process that involves combining an egg and sperm outside the body to facilitate conception?",
+          "answers": [
+            "In Vitro Fertilization (IVF)",
+            "Artificial Insemination (AI)",
+            "Surrogacy",
+            "Gamete Intrafallopian Transfer (GIFT)"
+          ],
+          "correctAnswer": "In Vitro Fertilization (IVF)"
+        },
+        {
+          "question": "What is the process of using sensors, robotics, and data analytics to optimize agricultural practices?",
+          "answers": [
+            "Precision farming",
+            "Organic farming",
+            "Hydroponics",
+            "Aquaponics"
+          ],
+          "correctAnswer": "Precision farming"
+        },
+        {
+          "question": "Which technology allows people with limited mobility to control electronic devices using their brain activity?",
+          "answers": [
+            "Virtual Reality (VR)",
+            "Brain-Computer Interface (BCI)",
+            "Assistive Robotics",
+            "Prosthetics"
+          ],
+          "correctAnswer": "Brain-Computer Interface (BCI)"
+        },
+        {
+          "question": "Which technology is used to track and monitor wildlife populations in their natural habitats?",
+          "answers": [
+            "Satellite tracking",
+            "Drones",
+            "DNA analysis",
+            "Radio telemetry"
+          ],
+          "correctAnswer": "Radio telemetry"
+        },
+        {
+          "question": "What is the name of the technology that allows for the growth of plants in a soil-less environment using nutrient-rich water?",
+          "answers": [
+            "Aquaculture",
+            "Hydroponics",
+            "Aeroponics",
+            "Vertical farming"
+          ],
+          "correctAnswer": "Hydroponics"
+        },
+        {
+          "question": "Which technology is used to monitor and analyze the movement patterns of marine animals, such as whales and dolphins?",
+          "answers": [
+            "GPS tracking",
+            "Acoustic tags",
+            "Satellite imaging",
+            "Sonar systems"
+          ],
+          "correctAnswer": "Acoustic tags"
+        },
+        {
+          "question": "What technology is used to genetically modify crops to enhance traits such as pest resistance or increased yield?",
+          "answers": [
+            "Gene editing",
+            "Selective breeding",
+            "Tissue culture",
+            "Genome sequencing"
+          ],
+          "correctAnswer": "Gene editing"
+        },
+        {
+          "question": "What technology is used to identify and analyze patterns in large sets of data to gain insights and make informed decisions?",
+          "answers": [
+            "Artificial intelligence (AI)",
+            "Machine learning",
+            "Data mining",
+            "Predictive analytics"
+          ],
+          "correctAnswer": "Data mining"
+        }
+      ]
+    },
+    {
+      "name": "Science",
+      "questions": [
+        {
+          "question": "What does the mass number of an atom indicate?",
+          "answers": [
+            "The number of protons",
+            "The number of neutrons",
+            "The number of protons and neutrons",
+            "The number of electrons"
+          ],
+          "correctAnswer": "The number of protons and neutrons"
+        },
+        {
+          "question": "How many bones are there in the human body?",
+          "answers": ["216", "206", "208", "214"],
+          "correctAnswer": "206"
+        }
+      ]
+    },
+    {
+      "name": "Sports",
+      "questions": [
+        {
+          "question": "What does the mass number of an atom indicate?",
+          "answers": [
+            "The number of protons",
+            "The number of neutrons",
+            "The number of protons and neutrons",
+            "The number of electrons"
+          ],
+          "correctAnswer": "The number of protons and neutrons"
+        },
+        {
+          "question": "How many bones are there in the human body?",
+          "answers": ["216", "206", "208", "214"],
+          "correctAnswer": "206"
+        }
+      ]
+    },
+    {
+      "name": "Music",
+      "questions": [
+        {
+          "question": "Which American singer-songwriter released the album 'Rumours' with their band in 1977?",
+          "answers": [
+            "Neil Young",
+            "Joni Mitchell",
+            "Stevie Nicks",
+            "Fleetwood Mac"
+          ],
+          "correctAnswer": "Fleetwood Mac"
+        },
+        {
+          "question": "Which female singer went solo from Clannad?",
+          "answers": ["Sinead O'Conner", "Moya", "Enya", "Dolores O'Riordan"],
+          "correctAnswer": "Enya"
+        },
+        {
+          "question": "What kind of triangle did Barry Manilow sing about in 1981?",
+          "answers": [
+            "a love triangle",
+            "the Bermuda triangle",
+            "the golden triangle",
+            "a triangular trade"
+          ],
+          "correctAnswer": "the Bermuda triangle"
+        },
+        {
+          "question": "Which Genesis drummer had three big hits in the 1980's?",
+          "answers": [
+            "John Silver",
+            "Phil Collins",
+            "John Mayhew",
+            "Chris Stewart"
+          ],
+          "correctAnswer": "Phil Collins"
+        },
+        {
+          "question": "How many Jacksons were there when they sang “I Want You Back”?",
+          "answers": ["3", "4", "5", "6"],
+          "correctAnswer": "5"
+        },
+        {
+          "question": "The Eagles' reunion album, released in 1994, is titled:",
+          "answers": [
+            "Hotel California Revisited",
+            "The Long Road",
+            "Hell Freezes Over",
+            "Eagles Forever"
+          ],
+          "correctAnswer": "Hell Freezes Over"
+        },
+        {
+          "question": "What was the name of Frank Zappa's independent record label?",
+          "answers": [
+            "Zappa Records",
+            "Barking Pumpkin Records",
+            "Mothership Records",
+            "Freak Out! Records"
+          ],
+          "correctAnswer": "Barking Pumpkin Records"
+        },
+        {
+          "question": "What color was Prince's iconic custom-made guitar?",
+          "answers": ["Purple", "Blue", "Green", "Multicolored"],
+          "correctAnswer": "Purple"
+        },
+        {
+          "question": "Hootie & the Blowfish took a hiatus in the early 2000's, during which Darius Rucker pursued a successful solo career in which genre?",
+          "answers": ["Country", "Hip-hop", "Jazz", "Rock"],
+          "correctAnswer": "Country"
+        },
+        {
+          "question": "Which iconic singer originally recorded the song 'I Will Always Love You', later popularized by Whitney Houston?",
+          "answers": [
+            "Elvis Presley",
+            "Reba McEntire",
+            "Dolly Parton",
+            "Aretha Franklin"
+          ],
+          "correctAnswer": "Dolly Parton"
+        },
+        {
+          "question": "Who is the drummer and primary lyricist of Rush?",
+          "answers": ["Alex Lifeson", "Neil Peart", "Geddy Lee", "John Rutsey"],
+          "correctAnswer": "Neil Peart"
+        },
+        {
+          "question": "What was the original name of the band Queen?",
+          "answers": [
+            "The Bohemians",
+            "Smile",
+            "Mercury Rising",
+            "The Royalists"
+          ],
+          "correctAnswer": "Smile"
+        },
+        {
+          "question": "What was the tragic event that occurred on October 20, 1977, involving Lynyrd Skynyrd?",
+          "answers": [
+            "Their tour bus crashed",
+            "Their plane crashed",
+            "They were banned from performing in certain states",
+            "Their instruments were stolen"
+          ],
+          "correctAnswer": "Their tour bus crashed"
+        },
+        {
+          "question": "Which keyboard instrument did Ray Manzarek play in The Doors?",
+          "answers": ["Piano", "Organ", "Synthesizer", "Harpsichord"],
+          "correctAnswer": "Organ"
+        },
+        {
+          "question": "Bob Marley's iconic song 'No Woman, No Cry' was recorded live at which venue?",
+          "answers": [
+            "Madison Square Garden",
+            "Royal Albert Hall",
+            "Tuff Gong Studio",
+            "Lyceum Theatre"
+          ],
+          "correctAnswer": "Lyceum Theatre"
+        },
+        {
+          "question": "What was the title of ZZ Top's successful 1983 album that brought them mainstream popularity?",
+          "answers": ["Eliminator", "Recycler", "Rhythmeen", "Afterburner"],
+          "correctAnswer": "Eliminator"
+        },
+        {
+          "question": "AC/DC's distinctive logo features what type of object?",
+          "answers": ["Lightning bolt", "Skull", "Guitar", "Cannon"],
+          "correctAnswer": "Lightning bolt"
+        },
+        {
+          "question": "Iron Maiden's mascot Eddie has appeared on many of their album covers. In which album did Eddie take the form of a mummified pharaoh?",
+          "answers": [
+            "Seventh Son of a Seventh Son",
+            "Fear of the Dark",
+            "Powerslave",
+            "Somewhere in Time"
+          ],
+          "correctAnswer": "Powerslave"
+        }
+      ]
+    }
+  ]
+}
