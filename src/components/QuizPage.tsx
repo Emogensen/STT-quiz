@@ -164,7 +164,12 @@ const QuizPage: React.FC<QuizPageProps> = ({
                   <p className='text-lg mb-4'>
                     3 points added to {winningTeam}
                   </p>
-                  <Link to='/quiz'>Back to categories</Link>
+                  <Link
+                    to='/quiz'
+                    className='bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline'
+                  >
+                    Back to categories
+                  </Link>
                 </>
               )}
             </div>

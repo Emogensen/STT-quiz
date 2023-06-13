@@ -119,9 +119,94 @@
       "name": "History",
       "questions": [
         {
-          "question": "When were the first Olympic games held?",
-          "answers": ["772 BC", "1896 AD", "776 BC", "692 BC"],
-          "correctAnswer": "776 BC"
+          "question": "The Magna Carta, signed in 1215, limited the power of which ruler?",
+          "answers": ["King Louis XIV of France", "Queen Victoria of England", "King John of England", "Emperor Charlemagne of the Holy Roman Empire"],
+          "correctAnswer": "King John of England"
+        },
+        {
+          "question": "The Renaissance, a period of cultural and intellectual rebirth, originated in which country?",
+          "answers": ["Italy", "Greece", "England", "France"],
+          "correctAnswer": "Italy"
+        },
+        {
+          "question": "The Industrial Revolution began in which country?",
+          "answers": ["Germany", "France", "United States", "United Kingdom"],
+          "correctAnswer": "United Kingdom"
+        },
+        {
+          "question": "Which European country was responsible for colonizing a large portion of Africa during the late 19th and early 20th centuries?",
+          "answers": ["Spain", "Portugal", "France", "Belgium"],
+          "correctAnswer": "Belgium"
+        },
+        {
+          "question": "Who is credited with inventing the printing press in the 15th century?",
+          "answers": ["Hermann von Helmholtz", "Johannes Gutenberg", "Emil von Behring", "Johann Wolfgang von Goethe"],
+          "correctAnswer": "Johannes Gutenberg"
+        },
+        {
+          "question": "Which leader was responsible for the policy of apartheid in South Africa?",
+          "answers": ["Nelson Mandela", "Fidel Castro", "Winston Churchill", "Hendrik Verwoerd"],
+          "correctAnswer": "Hendrik Verwoerd"
+        },
+        {
+          "question": "Which Viking explorer is believed to have reached North America around the year 1000 AD?",
+          "answers": ["Erik the Red", "Leif Erikson", "Olaf Tryggvason", "Harald Hardrada"],
+          "correctAnswer": "Leif Erikson"
+        },
+        {
+          "question": "Which Norwegian explorer was the first to reach the South Pole in 1911?",
+          "answers": ["Fridtjof Nansen", "Roald Amundsen", "Thor Heyerdahl", "Helge Ingstad"],
+          "correctAnswer": "Roald Amundsen"
+        },
+        {
+          "question": "The Battle of Stamford Bridge in 1066 took place in which present-day country?",
+          "answers": ["Norway", "Denmark", "Finland", "England"],
+          "correctAnswer": "Norway"
+        },
+        {
+          "question": "Which Swedish king established the Vasa dynasty and transformed Sweden into a major European power in the 17th century?",
+          "answers": ["Gustav Vasa", "Charles XII", "Gustav II Adolf", "Carl XVI Gustaf"],
+          "correctAnswer": "Gustav II Adolf"
+        },
+        {
+          "question": "Which Finnish architect is known for designing numerous iconic buildings in Helsinki, including the Helsinki Central Station and the National Museum of Finland?",
+          "answers": ["Alvar Aalto", "Eliel Saarinen", "Viljo Revell", "Juha Leiviskä"],
+          "correctAnswer": "Eliel Saarinen"
+        },
+        {
+          "question": "The Sami people are indigenous to which region in the Nordic countries?",
+          "answers": ["Lapland", "Jutland", "Faroe Islands", "Greenland"],
+          "correctAnswer": "Lapland"
+        },
+        {
+          "question": "Which ancient Egyptian ruler is known for establishing the world's first known peace treaty, the Treaty of Kadesh?",
+          "answers": ["Cleopatra", "Akhenaten", "Ramses II", "Thutmose III"],
+          "correctAnswer": "Ramses II"
+        },
+        {
+          "question": "Which female pharaoh ruled ancient Egypt during the New Kingdom and is known for her exceptional building projects and trade expeditions?",
+          "answers": ["Cleopatra", "Nefertiti", "Hatshepsut", "Ankhesenamun"],
+          "correctAnswer": "Hatshepsut"
+        },
+        {
+          "question": "Which well-known military leader, renowned for his strategic brilliance, founded a city in 331 BCE that bears his name?",
+          "answers": ["Leonidas I", "Alexander the Great", "Julius Caesar", "Sun Tzu"],
+          "correctAnswer": "Alexander the Great"
+        },
+        {
+          "question": "Which city is known as the 'Eternal City'?",
+          "answers": ["Athens", "Rome", "Paris", "London"],
+          "correctAnswer": "Rome"
+        },
+        {
+          "question": "The Louisiana Purchase, a significant territorial acquisition by the United States, was made from which European country?",
+          "answers": ["France", "Spain", "England", "Mexico"],
+          "correctAnswer": "France"
+        },
+        {
+          "question": "The samurai, a warrior class in feudal Japan, served under which military leader?",
+          "answers": ["Shogun", "Daimyo", "Emperor", "Ronin"],
+          "correctAnswer": "Shogun"
         },
         {
           "question": "What was the capital city of the Byzantine Empire?",
@@ -165,7 +250,7 @@
         },
         {
           "question": "In 2003, the popular music-streaming service Spotify was launched in which European country?",
-          "answers": ["United Kingdom", "Sweden", "Finland", "Germany"],
+          "answers": ["Denmark", "Sweden", "Finland", "Germany"],
           "correctAnswer": "Sweden"
         },
         {
@@ -229,7 +314,7 @@
             "Precision farming",
             "Organic farming",
             "Hydroponics",
-            "Aquaponics"
+            "Vertical farming"
           ],
           "correctAnswer": "Precision farming"
         },
@@ -259,7 +344,7 @@
             "Aquaculture",
             "Hydroponics",
             "Aeroponics",
-            "Vertical farming"
+            "Aquaponics"
           ],
           "correctAnswer": "Hydroponics"
         },
@@ -309,6 +394,91 @@
           "correctAnswer": "The number of protons and neutrons"
         },
         {
+          "question": "What type of bond is formed when electrons are shared between atoms?",
+          "answers": ["Ionic bond", "Covalent bond", "Metallic bond", "Hydrogen bond"],
+          "correctAnswer": "Covalent bond"
+        },
+        {
+          "question": "What is the term for the study of the Earth's atmosphere?",
+          "answers": ["Geology", "Ecology", "Meteorology", "Astronomy"],
+          "correctAnswer": "Meteorology"
+        },
+        {
+          "question": "What is the densest substance on Earth?",
+          "answers": ["Gold", "Platinum", "Osmium", "Uranium"],
+          "correctAnswer": "Osmium"
+        },
+        {
+          "question": "What is the largest organ in the human brain?",
+          "answers": ["Cerebellum", "Cerebrum", "Brainstem", "Pituitary gland"],
+          "correctAnswer": "Cerebrum"
+        },
+        {
+          "question": "What is the SI unit of force?",
+          "answers": ["Watt", "Volt", "Newton", "Joule"],
+          "correctAnswer": "Newton"
+        },
+        {
+          "question": "What is the phenomenon in which light waves change direction as they pass through a medium?",
+          "answers": ["Reflection", "Refraction", "Diffraction", "Dispersion"],
+          "correctAnswer": "Refraction"
+        },
+        {
+          "question": "Which element has the highest melting point?",
+          "answers": ["Carbon", "Tungsten", "Platinum", "Iron"],
+          "correctAnswer": "Tungsten"
+        },
+        {
+          "question": "What is the term for the study of fossils?",
+          "answers": ["Paleontology", "Archaeology", "Geology", "Anthropology"],
+          "correctAnswer": "Paleontology"
+        },
+        {
+          "question": "What is the approximate age of the universe, according to current scientific estimates?",
+          "answers": ["4.5 billion years", "13.8 billion years", "23.7 billion years", "1 trillion years"],
+          "correctAnswer": "13.8 billion years"
+        },
+        {
+          "question": "What is the name of the largest volcano in our solar system, located on Mars?",
+          "answers": ["Mount Everest", "Olympus Mons", "Mauna Loa", "Mount Etna"],
+          "correctAnswer": "Olympus Mons"
+        },
+        {
+          "question": "What is the name of the brightest star in the night sky?",
+          "answers": ["Alpha Centauri", "Sirius", "Polaris", "Betelgeuse"],
+          "correctAnswer": "Sirius"
+        },
+        {
+          "question": "What is the name of the largest moon in our solar system?",
+          "answers": ["Titan", "Europa", "Ganymede", "Enceladus"],
+          "correctAnswer": "Ganymede"
+        },
+        {
+          "question": "Which planet in our solar system has the highest surface temperature?",
+          "answers": ["Venus", "Mercury", "Mars", "Jupiter"],
+          "correctAnswer": "Venus"
+        },
+        {
+          "question": "Who discovered the double helix structure of DNA?",
+          "answers": ["Rosalind Franklin", "James Watson", "Francis Crick", "Linus Pauling"],
+          "correctAnswer": "Francis Crick"
+        },
+        {
+          "question": "Who proposed the heliocentric model of the solar system?",
+          "answers": ["Galileo Galilei", "Johannes Kepler", "Nicolaus Copernicus", "Isaac Newton"],
+          "correctAnswer": "Nicolaus Copernicus"
+        },
+        {
+          "question": "Which part of the human brain is responsible for regulating body temperature, hunger, and thirst?",
+          "answers": ["Thalamus", "Hypothalamus", "Medulla oblongata", "Hippocampus"],
+          "correctAnswer": "Hypothalamus"
+        },
+        {
+          "question": "Who discovered that the Earth's magnetic field is used by birds for navigation during migration?",
+          "answers": ["Rachel Carson", "Nikola Tesla", "Konrad Lorenz", "Wolfgang Köhler"],
+          "correctAnswer": "Konrad Lorenz"
+        },
+        {
           "question": "How many bones are there in the human body?",
           "answers": ["216", "206", "208", "214"],
           "correctAnswer": "206"
@@ -319,19 +489,109 @@
       "name": "Sports",
       "questions": [
         {
-          "question": "What does the mass number of an atom indicate?",
-          "answers": [
-            "The number of protons",
-            "The number of neutrons",
-            "The number of protons and neutrons",
-            "The number of electrons"
-          ],
-          "correctAnswer": "The number of protons and neutrons"
+          "question": "When were the first Olympic games held?",
+          "answers": ["772 BC", "1896 AD", "776 BC", "692 BC"],
+          "correctAnswer": "776 BC"
         },
         {
-          "question": "How many bones are there in the human body?",
-          "answers": ["216", "206", "208", "214"],
-          "correctAnswer": "206"
+          "question": "Who holds the record for the most goals scored in FIFA World Cup history?",
+          "answers": ["Lionel Messi", "Cristiano Ronaldo", "Pelé", "Miroslav Klose"],
+          "correctAnswer": "Miroslav Klose"
+        },
+        {
+          "question": "Which country has won the most Olympic gold medals in the history of the Summer Olympics?",
+          "answers": ["United States", "China", "Russia", "Germany"],
+          "correctAnswer": "United States"
+        },
+        {
+          "question": "Who is the all-time leading scorer in NBA (National Basketball Association) history?",
+          "answers": ["LeBron James", "Kobe Bryant", "Kareem Abdul-Jabbar", "Michael Jordan"],
+          "correctAnswer": "Kareem Abdul-Jabbar"
+        },
+        {
+          "question": "Which tennis player has won the most Grand Slam titles in the men's singles category?",
+          "answers": ["Roger Federer", "Rafael Nadal", "Novak Djokovic", "Pete Sampras"],
+          "correctAnswer": "Novak Djokovic"
+        },
+        {
+          "question": "In which city are the headquarters of the International Olympic Committee (IOC) located?",
+          "answers": ["Lausanne", "Geneva", "London", "Paris"],
+          "correctAnswer": "Lausanne"
+        },
+        {
+          "question": "Who is the most decorated Olympian of all time, having won a total of 28 Olympic medals?",
+          "answers": ["Usain Bolt", "Michael Phelps", "Simone Biles", "Katie Ledecky"],
+          "correctAnswer": "Michael Phelps"
+        },
+        {
+          "question": "Which country won the first FIFA World Cup held in 1930?",
+          "answers": ["Brazil", "Uruguay", "Argentina", "Italy"],
+          "correctAnswer": "Uruguay"
+        },
+        {
+          "question": "Which boxer is known as 'The Greatest' and 'The People's Champion'?",
+          "answers": ["Muhammad Ali", "Mike Tyson", "Floyd Mayweather Jr.", "Manny Pacquiao"],
+          "correctAnswer": "Muhammad Ali"
+        },
+        {
+          "question": "Who holds the record for the most home runs hit in a single season in Major League Baseball (MLB)?",
+          "answers": ["Babe Ruth", "Barry Bonds", "Hank Aaron", "Alex Rodriguez"],
+          "correctAnswer": "Barry Bonds"
+        },
+        {
+          "question": "Which country has won the most Rugby World Cup titles?",
+          "answers": ["Australia", "England", "New Zealand", "South Africa"],
+          "correctAnswer": "New Zealand"
+        },
+        {
+          "question": "Who is the current reigning Formula 1 World Champion?",
+          "answers": ["Lewis Hamilton", "Sebastian Vettel", "Max Verstappen", "Valtteri Bottas"],
+          "correctAnswer": "Max Verstappen"
+        },
+        {
+          "question": "Which golfer has won the most Masters Tournaments in history?",
+          "answers": ["Tiger Woods", "Jack Nicklaus", "Arnold Palmer", "Phil Mickelson"],
+          "correctAnswer": "Jack Nicklaus"
+        },
+        {
+          "question": "Which country won the FIFA Women's World Cup in 2019?",
+          "answers": ["United States", "Germany", "Sweden", "The Netherlands"],
+          "correctAnswer": "United States"
+        },
+        {
+          "question": "Who is the fastest man in recorded history, holding the world record for the 100-meter sprint?",
+          "answers": ["Usain Bolt", "Tyson Gay", "Yohan Blake", "Asafa Powell"],
+          "correctAnswer": "Usain Bolt"
+        },
+        {
+          "question": "Which country has won the most Davis Cup titles in men's tennis?",
+          "answers": ["United States", "Spain", "Australia", "France"],
+          "correctAnswer": "United States"
+        },
+        {
+          "question": "In which sport can you perform a 'Triple Lutz' or a 'Double Axel'?",
+          "answers": ["Figure skating", "Gymnastics", "Ski jumping", "Synchronized swimming"],
+          "correctAnswer": "Figure skating"
+        },
+        {
+          "question": "Who is the only player to have won the FIFA Ballon d'Or award five times?",
+          "answers": ["Lionel Messi", "Cristiano Ronaldo", "Neymar", "Ronaldinho"],
+          "correctAnswer": "Lionel Messi"
+        },
+        {
+          "question": "Which country has won the most Cricket World Cup titles?",
+          "answers": ["India", "Australia", "England", "West Indies"],
+          "correctAnswer": "Australia"
+        },
+        {
+          "question": "Which athlete famously lit the cauldron at the 1996 Olympic Games in Atlanta?",
+          "answers": ["Muhammad Ali", "Michael Johnson", "Carl Lewis", "Cathy Freeman"],
+          "correctAnswer": "Muhammad Ali"
+        },
+        {
+          "question": "In which sport do teams compete for the Stanley Cup?",
+          "answers": ["Ice hockey", "Basketball", "American football", "Baseball"],
+          "correctAnswer": "Ice hockey"
         }
       ]
     },
@@ -400,7 +660,7 @@
         },
         {
           "question": "What color was Prince's iconic custom-made guitar?",
-          "answers": ["Purple", "Blue", "Green", "Multicolored"],
+          "answers": ["Purple", "Blue", "Green", "Multicolor"],
           "correctAnswer": "Purple"
         },
         {
