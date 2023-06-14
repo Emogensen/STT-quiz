@@ -10,28 +10,26 @@ function Home() {
   const [currentGif, setCurrentGif] = useState<string>(gifArr[gifCount]);
 
   useEffect(() => {
+    const interval = setInterval(() => {
+      if (gifCount === gifArr.length - 1) {
+        setGifCount(0);
+      } else {
+        setGifCount(gifCount + 1);
+      }
+    }, 3700);
+    return () => clearInterval(interval);
+  }, [gifCount]);
+
+  useEffect(() => {
     setCurrentGif(gifArr[gifCount]);
   }, [gifCount]);
 
-  const incrementGifCount = () => {
-    if (gifCount === gifArr.length - 1) {
-      setGifCount(0);
-    } else {
-      setGifCount(gifCount + 1);
-    }
-  };
-
   return (
-    <div className="max-w-md mx-auto flex flex-col justify-center items-center">
-      <h2 className="text-2xl font-bold mb-4">
+    <div className="w-fit mx-auto flex flex-col justify-center items-center">
+      <h2 className="text-4xl font-bold mb-4">
         Welcome to the STT pre-party Quiz!
       </h2>
-      <img
-        className="mt-4"
-        src={currentGif}
-        alt="gif goes here"
-        onClick={incrementGifCount}
-      />
+      <img className="mt-4 h-96 w-auto" src={currentGif} alt="gif goes here" />
     </div>
   );
 }

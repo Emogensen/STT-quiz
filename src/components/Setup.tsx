@@ -46,19 +46,14 @@ const Setup: React.FC<TeamFormProps> = ({ teams, setTeams }) => {
     setTeams(updatedTeams);
   };
 
-  //   const handleSubmit = (e: React.FormEvent) => {
-  //     e.preventDefault();
-  //     console.log(teams);
-  //   };
-
   return (
-    <div className="max-w-md mx-auto">
-      <h2 className="text-2xl font-bold mb-4">Add teams and contestants</h2>
-      <form>
+    <div className="mx-auto w-fit">
+      <h2 className="text-4xl font-bold mb-4">Add teams and contestants</h2>
+      <form className="mt-6">
         {teams.map((team, index) => (
           <div key={index} className="mb-6">
             <div className="flex items-center justify-between mb-2">
-              <label className="block text-gray-700 text-sm font-bold mb-2">
+              <label className="block text-gray-700 text-2xl font-bold mb-2">
                 Team name
               </label>
               <button
@@ -70,7 +65,7 @@ const Setup: React.FC<TeamFormProps> = ({ teams, setTeams }) => {
               </button>
             </div>
             <input
-              className="appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+              className="appearance-none border rounded w-full py-2 px-3 text-gray-700 text-xl leading-tight focus:outline-none focus:shadow-outline"
               type="text"
               value={team.name}
               onChange={(e) => handleTeamNameChange(index, e.target.value)}
@@ -81,7 +76,7 @@ const Setup: React.FC<TeamFormProps> = ({ teams, setTeams }) => {
             />
           </div>
         ))}
-        <div className="mt-4">
+        <div className="mt-4 flex justify-center">
           <button
             className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
             type="button"

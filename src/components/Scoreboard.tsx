@@ -18,14 +18,14 @@ const Scoreboard: React.FC<ScoreboardProps> = ({ teams, setTeams }) => {
   };
 
   return (
-    <div className="max-w-md mx-auto">
-      <div className="flex justify-center">
-        <h2 className="text-2xl font-bold mb-4">Scoreboard</h2>
+    <div className="max-w-md mx-auto flex flex-col justify-center items-center">
+      <div className="flex justify-center mb-6">
+        <h2 className="text-4xl font-bold">Scoreboard</h2>
       </div>
       {teams.map((team, index) => (
-        <div key={index} className="flex items-center justify-between mb-2">
-          <span className="font-bold">{team.name}</span>
-          <span className="font-bold">{team.score}</span>
+        <div key={index} className="flex items-center mb-2">
+          <span className="font-bold text-2xl">{team.name}</span>
+          <span className="font-bold ml-10 text-2xl">{team.score}</span>
         </div>
       ))}
       {teams.length > 0 && (
