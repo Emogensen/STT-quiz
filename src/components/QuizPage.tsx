@@ -1,7 +1,8 @@
-import { Link, useParams } from 'react-router-dom';
-import { useEffect, useState } from 'react';
-import { Question, QuizData } from './Quiz';
-import { Team } from './Setup';
+import { Link, useParams } from "react-router-dom";
+import { useEffect, useState } from "react";
+import { Question, QuizData } from "./Quiz";
+import { Team } from "./Setup";
+import { Card } from "antd";
 
 type QuizPageParams = {
   categoryId: string;
@@ -15,9 +16,9 @@ interface QuizPageProps {
 }
 
 const defaultQuestion: Question = {
-  question: '',
+  question: "",
   answers: [],
-  correctAnswer: '',
+  correctAnswer: "",
 };
 
 const QuizPage: React.FC<QuizPageProps> = ({
@@ -30,26 +31,26 @@ const QuizPage: React.FC<QuizPageProps> = ({
   const categoryIndex = parseInt(categoryId!, 10);
   const category = quiz.categories[categoryIndex];
   const [questions, setQuestions] = useState<Question[]>(category.questions);
-  const [selectedAnswer, setSelectedAnswer] = useState('');
+  const [selectedAnswer, setSelectedAnswer] = useState("");
   const [showResult, setShowResult] = useState<boolean>(false);
   const [currentQuestion, setCurrentQuestion] =
     useState<Question>(defaultQuestion);
   const [pointsGiven, setPointsGiven] = useState<boolean>(false);
   const [pointsDeducted, setPointsDeducted] = useState<boolean>(false);
-  const [winningTeam, setWinningTeam] = useState<string>('');
-  const [losingTeam, setLosingTeam] = useState<string>('');
+  const [winningTeam, setWinningTeam] = useState<string>("");
+  const [losingTeam, setLosingTeam] = useState<string>("");
 
   useEffect(() => {
     console.log(teams);
-    if (currentQuestion.question === '' && category.questions.length > 0) {
+    if (currentQuestion.question === "" && category.questions.length > 0) {
       setCurrentQuestion(
         questions[Math.floor(Math.random() * questions.length)]
       );
     } else {
       setCurrentQuestion({
-        question: 'No more questions in this category',
+        question: "No more questions in this category",
         answers: [],
-        correctAnswer: '',
+        correctAnswer: "",
       });
     }
   }, []);
@@ -97,61 +98,68 @@ const QuizPage: React.FC<QuizPageProps> = ({
   //   const currentQuestion = questions[getRandomNumber(questions.length)];
 
   return (
-    <div className='flex flex-col'>
-      <div className='flex flex-col justify-center max-w-md mx-auto'>
-        {currentQuestion.question === 'No more questions in this category' ? (
-          <h2 className='text-2xl font-bold mb-4'>
+    <div className="flex flex-col">
+      <div className="flex flex-col justify-center max-w-md mx-auto">
+        {currentQuestion.question === "No more questions in this category" ? (
+          <h2 className="text-2xl font-bold mb-4">
             {currentQuestion.question} :(
           </h2>
         ) : (
           <>
-            <h2 className='text-2xl font-bold mb-4'>
-              {category.name} question
-            </h2>
-            <div>
-              <p className='text-lg mb-4'>{currentQuestion.question}</p>
-              <ul>
-                {currentQuestion.answers.map((answer, answerIndex) => (
-                  <li key={answerIndex}>
-                    <label className='flex items-center'>
-                      <input
-                        type='radio'
-                        name='answer'
-                        value={answer}
-                        checked={selectedAnswer === answer}
-                        disabled={winningTeam !== ''}
-                        onChange={() => handleAnswerSelect(answer)}
-                        className='mr-2'
-                      />
-                      {answer}
-                    </label>
-                  </li>
-                ))}
-              </ul>
-              <div className='flex justify-center mt-4'>
-                <button
-                  className='bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline'
-                  onClick={submitAnswer}
-                  disabled={!selectedAnswer || winningTeam !== ''}
-                >
-                  Submit answer
-                </button>
+            <div className="w-full flex flex-col justify-center items-center">
+              <h2 className="text-2xl font-bold mb-4">
+                {category.name} question
+              </h2>
+              <Card
+                title={currentQuestion.question}
+                bordered={false}
+                className="w-fit mt-4"
+              >
+                <ul>
+                  {currentQuestion.answers.map((answer, answerIndex) => (
+                    <li key={answerIndex}>
+                      <label className="flex items-center">
+                        <input
+                          type="radio"
+                          name="answer"
+                          value={answer}
+                          checked={selectedAnswer === answer}
+                          disabled={winningTeam !== ""}
+                          onChange={() => handleAnswerSelect(answer)}
+                          className="mr-2"
+                        />
+                        {answer}
+                      </label>
+                    </li>
+                  ))}
+                </ul>
+              </Card>
+              <div className="flex justify-center mt-4">
+                {!showResult && (
+                  <button
+                    className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
+                    onClick={submitAnswer}
+                    disabled={!selectedAnswer || winningTeam !== ""}
+                  >
+                    Submit answer
+                  </button>
+                )}
               </div>
             </div>
           </>
         )}
       </div>
       {showResult && (
-        <div className='max-w-md mx-auto pt-6'>
+        <div className="max-w-md mx-auto mt-4">
           {selectedAnswer === currentQuestion.correctAnswer ? (
-            <div className='flex flex-col items-center justify-center'>
-              <p className='text-lg mb-4'>Correct!</p>
-              <p className='text-lg mb-4'>3 points to:</p>
-              <div className='flex flex-row items-center justify-between mb-2'>
+            <div className="flex flex-col items-center justify-center">
+              <p className="text-xl font-bold mb-4">Correct!</p>
+              <p className="text-lg mb-4">3 points to:</p>
+              <div className="flex flex-row items-center justify-between mb-2">
                 {teams.map((team, index) => (
                   <button
                     key={index}
-                    className='bg-green-500 hover:bg-green-700 text-white mx-1 font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline'
+                    className="bg-green-500 hover:bg-green-700 text-white mx-1 font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
                     onClick={() => handleAwardPoints(index)}
                     disabled={pointsGiven}
                   >
@@ -161,12 +169,12 @@ const QuizPage: React.FC<QuizPageProps> = ({
               </div>
               {pointsGiven && (
                 <>
-                  <p className='text-lg mb-4'>
+                  <p className="text-lg mb-4">
                     3 points added to {winningTeam}
                   </p>
                   <Link
-                    to='/quiz'
-                    className='bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline'
+                    to="/quiz"
+                    className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
                   >
                     Back to categories
                   </Link>
@@ -174,14 +182,14 @@ const QuizPage: React.FC<QuizPageProps> = ({
               )}
             </div>
           ) : (
-            <div className='flex flex-col items-center justify-center'>
-              <p className='text-lg mb-4'>Incorrect!</p>
-              <p className='text-lg mb-4'>-1 point to:</p>
-              <div className='flex flex-row items-center justify-between mb-2'>
+            <div className="flex flex-col items-center justify-center">
+              <p className="text-xl font-bold mb-4">Incorrect!</p>
+              <p className="text-lg mb-4">-1 point to:</p>
+              <div className="flex flex-row items-center justify-between mb-2">
                 {teams.map((team, index) => (
                   <button
                     key={index}
-                    className='bg-red-500 hover:bg-red-700 text-white mx-1 font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline'
+                    className="bg-red-500 hover:bg-red-700 text-white mx-1 font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
                     onClick={() => handleDeductPoints(index)}
                   >
                     {team.name}
@@ -189,7 +197,7 @@ const QuizPage: React.FC<QuizPageProps> = ({
                 ))}
               </div>
               {pointsDeducted && (
-                <p className='text-lg mb-4'>
+                <p className="text-lg mb-4">
                   1 point deducted from {losingTeam}
                 </p>
               )}
